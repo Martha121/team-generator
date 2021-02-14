@@ -1,7 +1,8 @@
 # Team Generator
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)' 
   ## Description
-    This is a Node command-line application, that takes in information provided by the user about employees on a software engineering team. Based on the information provided, the app writes the output to an HTML file. It uses the Inquirer package to prompt for questions and collect input from the user, and Jest to help running the tests
+    This is a Node command-line application, that takes in information provided by the user about employees on a software engineering team. Based on the information provided, the app writes the output to an HTML file. It uses the Inquirer package to prompt for questions and collect input from the user, and Jest to help running the tests.
+    Check out the "index.html" file created in the dist folder to see an example.
   
 
 ## Usage
