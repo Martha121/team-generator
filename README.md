@@ -7,7 +7,7 @@
 ## Usage
    You start by running node index.js in your command line. It will then show a series of questions regarding the team's employees that need to be answered in order to create your HTML file.<br/>
 
-   Link to the video: https://youtu.be/HCjs5KrxgvE
+   Link to the video: https://drive.google.com/file/d/1E6YYLtX4t-MIRbndY9RBPwFRes9iL_Ip/preview
 
 ## Screenshot
 ![team-generator screenshot](./assets/images/team-generator.jpg)
