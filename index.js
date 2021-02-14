@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
-const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
@@ -10,7 +9,7 @@ const writeToFile = require('./src/generate.site.js')
 let manager = [];
 let engineer = [];
 let intern = [];
-let employeeArr = {manager, engineer, intern};
+
 
 function Prompt() {
     
@@ -109,14 +108,11 @@ function Prompt() {
 }
 
 function processPrompts(manager,engineer,intern){
-    // Add code to call generate html page
-    // Generate page return full blown HTML
-    // AFter that, save the file to the /dist folder
+
     var fileName = "dist/index.html";
     // genrate HTML text
     var htmlText = generateHtml(manager, engineer, intern);
     // write markdown text to file
-    console.log("File: " + fileName + ", text: " + htmlText);
     writeToFile(fileName, htmlText);
 }
 
